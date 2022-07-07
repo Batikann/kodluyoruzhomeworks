@@ -1,0 +1,153 @@
+body {
+  background-color: #202124;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #bdc1c6;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-items {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 560px;
+}
+
+#input-items {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -210px;
+}
+
+.btn {
+  width: 30%;
+  height: 38px;
+  border-radius: 35px;
+  background-color: #202124;
+  border: 1px solid #696969;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #303134;
+  border-color: #202124;
+}
+.btn:focus {
+  border: none;
+  background-color: #303134;
+  resize: none;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #303134;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  border: 1px solid #bdc1c6;
+}
+
+#btn1 {
+  height: 36px;
+  width: 123px;
+  margin-right: 10px;
+}
+
+#btn2 {
+  height: 36px;
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #87cefa;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#e {
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #7e4a35;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+#e:hover {
+  box-shadow: 0px 0px 0px 3px #696969;
+}
+
+#footer1 {
+  background-color: "#171717";
+  width: 100%;
+}
+
+#footer-under {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+}
+
+.footer-upper-item {
+  padding-left: 30px;
+}
+
+.footer-under-item {
+  padding-right: 30px;
+}
+
+#colmn1 {
+  color: #bdc1c6;
+}
+
+#text {
+  padding-left: 30px;
+  padding-top: 12px;
+}
+
+.footer-upper-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-under-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+#google-apps{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-right: -10px;
+}
+
+#google-apps:hover{
+  background-color: #696969;
+}
